@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J9M1PXHFQ1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J9M1PXHFQ1');
+</script>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Guía gratuita para estudiar online en Argentina · Rodri Gonzalez</title>
+<meta name="description" content="Mapa gratuito de licenciaturas, tecnicaturas y cursos técnicos online o virtuales en Argentina, organizado por objetivo laboral, con enlaces oficiales y ruta sugerida."/>
+<meta name="author" content="Rodri Gonzalez"/>
+<meta property="og:title" content="Guía gratuita para estudiar online en Argentina · Rodri Gonzalez"/>
+<meta property="og:description" content="Licenciaturas, tecnicaturas y cursos técnicos gratuitos o de bajo costo, con links oficiales y rutas según objetivo."/>
+<meta property="og:type" content="article"/>
+<meta name="theme-color" content="#000000"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --bg:#000;
+  --panel:#0a0a0a;
+  --panel-2:#111;
+  --panel-3:#161616;
+  --text:#f5f5f5;
+  --muted:#737373;
+  --muted-2:#a3a3a3;
+  --line:#1f1f1f;
+  --line-2:#2a2a2a;
+  --accent:#d42020;
+  --accent-h:#e83030;
+  --max:1120px;
+  --r:14px;
+  --r-sm:9px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:'DM Sans',ui-sans-serif,system-ui,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.6;
+}
+body::before{
+  content:"";
+  position:fixed;inset:0;pointer-events:none;z-index:0;
+  background-image:
+    linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);
+  background-size:48px 48px;
+  mask-image:linear-gradient(to bottom,#000 0%,transparent 55%);
+}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px;position:relative;z-index:1}
+
+/* TOPBAR */
+.topbar{padding:18px 0 10px}
+.topbar-inner{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.rg-mark{display:inline-flex;align-items:center;gap:.65rem;font-family:'Inter',sans-serif;font-weight:800;font-size:1rem;letter-spacing:.01em;color:#fff}
+.rg-logo{display:grid;place-items:center;width:36px;height:36px;border:1px solid rgba(255,255,255,.15);border-radius:50%;background:#0a0a0a;font-size:.75rem;color:#fff;font-weight:900;flex-shrink:0}
+.rg-sub{color:var(--muted);font-weight:400;font-size:.85rem;margin-left:.1rem}
+.toplinks{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.toplinks a{color:var(--muted-2);font-size:.85rem;border:1px solid var(--line-2);padding:.4rem .7rem;border-radius:999px;background:var(--panel);font-weight:500;transition:.15s}
+.toplinks a:hover{color:#fff;border-color:rgba(212,32,32,.4)}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:20;background:rgba(0,0,0,.85);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.navline{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 0;overflow:auto;scrollbar-width:none}
+.navlinks{display:flex;gap:4px;white-space:nowrap}
+.navlinks a{font-size:.85rem;color:var(--muted-2);padding:.5rem .75rem;border-radius:6px;transition:.15s;font-weight:500}
+.navlinks a:hover{color:#fff;background:rgba(255,255,255,.05)}
+.nav-brand{display:flex;align-items:center;gap:.5rem;font-family:'Inter',sans-serif;font-weight:800;font-size:1rem;letter-spacing:.01em;color:#fff;white-space:nowrap}
+.nav-brand::before{content:"RG";display:grid;place-items:center;width:24px;height:24px;border:1px solid rgba(255,255,255,.15);border-radius:50%;font-size:.65rem;color:#fff;background:#0a0a0a}
+
+/* HERO */
+.hero{padding:64px 0 48px}
+.kicker{display:inline-flex;align-items:center;gap:.5rem;font-family:'Inter',sans-serif;font-size:.8rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-bottom:1.25rem}
+.kicker-dot{width:5px;height:5px;background:var(--accent);border-radius:50%;flex-shrink:0}
+h1{
+  font-family:'Inter',sans-serif;
+  font-size:clamp(3rem,8vw,6.5rem);
+  font-weight:900;
+  line-height:.95;
+  letter-spacing:-.03em;
+  color:#fff;
+  max-width:900px;
+  margin-bottom:1.5rem;
+}
+h1 em{font-style:normal;color:var(--accent)}
+.lead{color:var(--muted-2);font-size:clamp(1rem,1.6vw,1.2rem);max-width:700px;margin-bottom:2rem;font-weight:300;line-height:1.65}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:start;margin-top:2.5rem}
+.hero-card{background:var(--panel);border:1px solid var(--line-2);border-radius:var(--r);padding:22px}
+.stat-row{display:flex;flex-direction:column;gap:0;padding:14px 0;border-bottom:1px solid var(--line)}
+.stat-row:last-child{border-bottom:none;padding-bottom:0}
+.stat-row:first-child{padding-top:0}
+.stat-num{font-family:'Inter',sans-serif;font-size:2rem;font-weight:900;color:#fff;line-height:1}
+.stat-label{font-size:.82rem;color:var(--muted);margin-top:.2rem}
+.notice{border:1px solid rgba(212,32,32,.25);background:rgba(212,32,32,.07);color:#f5c6c6;border-radius:var(--r-sm);padding:13px 16px;font-size:.9rem;margin-top:1.25rem;line-height:1.5}
+.hero-actions{display:flex;gap:10px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:.5rem;padding:.75rem 1.15rem;border-radius:999px;font-weight:600;font-size:.9rem;border:1px solid var(--line-2);background:var(--panel);color:var(--text);transition:.15s;cursor:pointer}
+.btn:hover{border-color:rgba(212,32,32,.4);transform:translateY(-1px)}
+.btn.primary{background:#fff;color:#000;border-color:transparent;font-weight:700}
+.btn.primary:hover{background:#e8e8e8}
+
+/* SECTIONS */
+section{padding:56px 0}
+.section-head{margin-bottom:24px}
+.section-kicker{display:block;font-family:'Inter',sans-serif;font-size:.78rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:.75rem}
+h2{font-family:'Inter',sans-serif;font-size:clamp(1.9rem,4.5vw,3.2rem);font-weight:900;line-height:1;letter-spacing:-.02em;color:#fff;margin-bottom:.5rem}
+h3{font-family:'Inter',sans-serif;font-size:1.2rem;font-weight:800;line-height:1.2;letter-spacing:-.01em;color:#fff;margin-bottom:.5rem}
+p{color:var(--muted-2);font-size:.95rem;line-height:1.65}
+.muted{color:var(--muted)}
+.divider{height:1px;background:var(--line);margin:0}
+
+/* CARDS */
+.grid{display:grid;gap:14px}
+.cols-3{grid-template-columns:repeat(3,1fr)}
+.cols-2{grid-template-columns:repeat(2,1fr)}
+.card{background:var(--panel);border:1px solid var(--line-2);border-radius:var(--r);padding:20px;transition:.18s}
+.card:hover{border-color:rgba(212,32,32,.3);transform:translateY(-1px)}
+.card-link{
+  display:inline-flex;align-items:center;gap:.4rem;
+  margin-top:14px;padding:.55rem .85rem;
+  border-radius:999px;font-size:.82rem;font-weight:600;
+  border:1px solid var(--line-2);background:var(--panel-3);color:var(--muted-2);
+  transition:.15s
+}
+.card-link:hover{color:#fff;border-color:rgba(212,32,32,.35)}
+
+/* PATH CARDS */
+.path-card{position:relative;overflow:hidden;padding:22px}
+.path-num{font-family:'Inter',sans-serif;font-size:5rem;font-weight:900;line-height:1;color:rgba(255,255,255,.05);position:absolute;right:14px;top:8px;pointer-events:none}
+.path-card ul{margin:10px 0 0;padding-left:1rem;color:var(--muted-2);font-size:.9rem}
+.path-card ul li{margin-bottom:.45rem;line-height:1.55}
+
+/* TAGS */
+.tagrow{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.tag{font-size:.72rem;font-weight:700;color:var(--muted-2);background:var(--panel-3);border:1px solid var(--line-2);padding:.28rem .5rem;border-radius:999px}
+.tag.free{background:rgba(34,197,94,.08);border-color:rgba(34,197,94,.2);color:#86efac}
+.tag.warn{background:rgba(250,204,21,.08);border-color:rgba(250,204,21,.18);color:#fde68a}
+.tag.online{background:rgba(96,165,250,.08);border-color:rgba(96,165,250,.18);color:#bfdbfe}
+.tag.tech{background:rgba(167,139,250,.08);border-color:rgba(167,139,250,.18);color:#ddd6fe}
+
+/* FILTERS */
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+.filter-btn{cursor:pointer;border:1px solid var(--line-2);background:var(--panel);color:var(--muted-2);border-radius:999px;padding:.55rem .9rem;font-weight:600;font-size:.83rem;font-family:'DM Sans',sans-serif;transition:.15s}
+.filter-btn:hover{color:#fff;border-color:var(--line)}
+.filter-btn.active{background:var(--accent);color:#fff;border-color:transparent}
+
+/* TABLE */
+.table-wrap{overflow:auto;border:1px solid var(--line-2);border-radius:var(--r);background:var(--panel)}
+table{width:100%;border-collapse:collapse;min-width:840px}
+th,td{padding:13px 16px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+th{font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-weight:700;background:rgba(255,255,255,.025)}
+td{color:var(--muted-2);font-size:.9rem}
+tr:last-child td{border-bottom:0}
+tr:hover td{background:rgba(255,255,255,.015)}
+
+/* CHECKLIST */
+.checklist{display:grid;gap:10px}
+.check{display:flex;gap:14px;align-items:flex-start;background:var(--panel);border:1px solid var(--line-2);border-radius:var(--r-sm);padding:16px}
+.check-num{display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:rgba(212,32,32,.15);color:#f5c6c6;font-size:.8rem;font-weight:900;flex-shrink:0;font-family:'Inter',sans-serif;border:1px solid rgba(212,32,32,.2)}
+.check-body strong{display:block;color:#fff;font-size:.9rem;margin-bottom:.3rem}
+.check-body span{color:var(--muted);font-size:.86rem;line-height:1.55}
+
+/* RESOURCES */
+.resource{display:flex;gap:12px;align-items:flex-start;padding:16px 0;border-bottom:1px solid var(--line)}
+.resource:last-child{border-bottom:none}
+.rdot{width:8px;height:8px;border-radius:50%;background:var(--accent);margin-top:6px;flex-shrink:0;box-shadow:0 0 0 4px rgba(212,32,32,.12)}
+.resource-title{font-weight:600;color:#fff;font-size:.95rem;margin-bottom:.25rem}
+.resource-link{color:var(--accent);font-size:.85rem;font-weight:600}
+.resource-link:hover{color:var(--accent-h)}
+
+/* SOURCES */
+.source-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:14px}
+.source-item{color:var(--muted-2);font-size:.85rem;border:1px solid var(--line);border-radius:var(--r-sm);padding:10px 12px;background:var(--panel);transition:.15s}
+.source-item:hover{color:#fff;border-color:rgba(212,32,32,.28)}
+
+/* FOOTER */
+footer{padding:48px 0 56px;border-top:1px solid var(--line);position:relative;z-index:1}
+.footer-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:40px;margin-bottom:32px}
+.footer-desc{color:var(--muted);font-size:.9rem;line-height:1.65;margin-top:.75rem}
+.footer-links{display:flex;flex-direction:column;gap:8px;align-items:flex-start;margin-top:.5rem}
+.footer-links a{color:var(--muted-2);font-size:.88rem;border:1px solid var(--line-2);padding:.4rem .75rem;border-radius:999px;background:var(--panel);font-weight:500;transition:.15s}
+.footer-links a:hover{color:#fff;border-color:rgba(212,32,32,.35)}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-top:24px;border-top:1px solid var(--line);color:var(--muted);font-size:.82rem;flex-wrap:wrap}
+.footer-mark{font-family:'Inter',sans-serif;font-weight:800;letter-spacing:-.01em;color:#fff;font-size:1.5rem}
+
+/* CALLOUT */
+.callout{border-left:3px solid var(--accent);background:rgba(212,32,32,.07);padding:14px 16px;border-radius:0 var(--r-sm) var(--r-sm) 0;margin:16px 0;color:#f5c6c6;font-size:.9rem;line-height:1.6}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  .hero-grid,.cols-3,.cols-2,.footer-grid{grid-template-columns:1fr}
+  .toplinks{display:none}
+  .source-grid{grid-template-columns:1fr}
+  h1{font-size:clamp(2.8rem,10vw,4.5rem)}
+}
+@media(max-width:600px){
+  .navlinks a{font-size:.8rem;padding:.45rem .6rem}
+  section{padding:40px 0}
+  .hero{padding:44px 0 32px}
+}
+</style>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="wrap">
+    <div class="topbar-inner">
+      <a href="https://rodrigonzalez.com.ar/" class="rg-mark">
+        <span class="rg-logo">RG</span>
+        Rodrigo Gonzalez Doldán
+        <span class="rg-sub">· Data &amp; Finance</span>
+      </a>
+      <div class="toplinks">
+        <a href="https://rodrigonzalez.com.ar/" target="_blank">Portfolio</a>
+        <a href="https://quieroprogramar.rodrigonzalez.com.ar/" target="_blank">QuieroProgramar</a>
+        <a href="https://www.linkedin.com/in/rodrigonzalezok/" target="_blank">LinkedIn</a>
+        <a href="https://www.tiktok.com/@rodrigonzlez" target="_blank">TikTok</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- NAV STICKY -->
+<nav>
+  <div class="wrap">
+    <div class="navline">
+      <span class="nav-brand">Guía de Estudio</span>
+      <div class="navlinks">
+        <a href="#rutas">Rutas</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#comparacion">Comparación</a>
+        <a href="#checklist">Checklist</a>
+        <a href="#fuentes">Fuentes</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="wrap">
+    <div class="kicker"><span class="kicker-dot"></span>Educación gratuita en Argentina · Rodri Gonzalez</div>
+    <h1>Dónde estudiar<br/><em>sin gastar</em><br/>una fortuna</h1>
+    <p class="lead">Mapa actualizado de licenciaturas, tecnicaturas y cursos técnicos online o virtuales en Argentina, con links oficiales, rutas según objetivo laboral y criterios para elegir bien.</p>
+    <div class="hero-actions">
+      <a href="#catalogo" class="btn primary">Ver catálogo completo</a>
+      <a href="#rutas" class="btn">Elegir por objetivo →</a>
+    </div>
+
+    <div class="hero-grid" style="margin-top:2.5rem">
+      <div>
+        <div class="notice">
+          <strong style="color:#fff">Antes de empezar:</strong> Esta guía es un mapa de referencia, no una garantía de oferta vigente. Los cupos, fechas y requisitos cambian. Siempre verificar directamente en el sitio oficial antes de inscribirse.
+        </div>
+        <div class="callout" style="margin-top:16px">
+          Si querés aprender Python, SQL o análisis de datos gratis desde cero, <a href="https://quieroprogramar.rodrigonzalez.com.ar/" target="_blank" style="color:#f5c6c6;font-weight:700;">QuieroProgramar</a> es mi plataforma educativa abierta, sin instalaciones ni costo.
+        </div>
+      </div>
+      <div class="hero-card">
+        <span class="section-kicker">Lo que encontrás acá</span>
+        <div class="stat-row">
+          <span class="stat-num">5+</span>
+          <span class="stat-label">Universidades nacionales con oferta a distancia</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-num">4+</span>
+          <span class="stat-label">Tecnicaturas superiores gratuitas en CABA</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-num">6+</span>
+          <span class="stat-label">Plataformas de cursos libres y sin costo</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Links oficiales verificados</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="divider"></div>
+
+<!-- RUTAS -->
+<section id="rutas">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-kicker">Por dónde empezar</span>
+      <h2>Rutas según tu objetivo</h2>
+      <p>Elegí el caso que más se parezca a tu situación actual.</p>
+    </div>
+    <div class="grid cols-3">
+      <article class="card path-card">
+        <span class="path-num">01</span>
+        <h3>Quiero cambiar de carrera o reconvertirme</h3>
+        <ul>
+          <li>Empezá con cursos cortos para validar el interés antes de comprometer tiempo.</li>
+          <li>Buscá tecnicaturas con salida laboral clara en tech, datos o administración.</li>
+          <li>Armá portfolio mientras estudiás: no esperes el título para demostrar criterio.</li>
+        </ul>
+      </article>
+      <article class="card path-card">
+        <span class="path-num">02</span>
+        <h3>Quiero mejorar mi salida laboral rápido</h3>
+        <ul>
+          <li>Elegí cursos cortos con certificado y aplicación clara: Excel, administración, soporte, inglés laboral.</li>
+          <li>Armá un CV orientado a tareas reales y resultados, aunque tu experiencia sea chica.</li>
+          <li>Sumá un proyecto demostrable: una planilla, una web simple, un portfolio o un caso práctico.</li>
+        </ul>
+      </article>
+      <article class="card path-card">
+        <span class="path-num">03</span>
+        <h3>Quiero un título oficial</h3>
+        <ul>
+          <li>Usá la Guía de Carreras Universitarias para validar institución, título y modalidad.</li>
+          <li>Revisá si la institución tiene SIED validado para modalidad a distancia.</li>
+          <li>Chequeá finales presenciales, tasas administrativas, becas y requisitos de ingreso.</li>
+        </ul>
+      </article>
+      <article class="card path-card">
+        <span class="path-num">04</span>
+        <h3>No tengo plata para empezar</h3>
+        <ul>
+          <li>Priorizá plataformas gratuitas y autogestionadas: Punto Digital, Portal Empleo, IPFL.</li>
+          <li>Si una universidad cobra tasa administrativa, revisá becas o exenciones.</li>
+          <li>No pagues un curso caro hasta saber exactamente qué problema laboral querés resolver.</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CATÁLOGO -->
+<section id="catalogo">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-kicker">Opciones concretas</span>
+      <h2>Catálogo organizado</h2>
+      <p>Filtrá por categoría para ubicar rápido qué camino te conviene revisar primero.</p>
+    </div>
+    <div class="filters" role="tablist" aria-label="Filtros del catálogo">
+      <button class="filter-btn active" data-filter="all">Todo</button>
+      <button class="filter-btn" data-filter="licenciatura">Licenciaturas / universitarias</button>
+      <button class="filter-btn" data-filter="tecnicatura">Tecnicaturas</button>
+      <button class="filter-btn" data-filter="curso">Cursos técnicos</button>
+      <button class="filter-btn" data-filter="tech">Tech / datos</button>
+    </div>
+    <div class="grid cols-3" id="cards">
+
+      <article class="card item" data-type="licenciatura">
+        <h3>UNDAV · Universidad Nacional de Avellaneda</h3>
+        <p>Modalidad a distancia con carreras de grado, tecnicaturas y ciclos de complementación. Incluye Gerencia de Empresas, Museología, Comunicación Política e Intervención Socio Comunitaria.</p>
+        <div class="tagrow"><span class="tag online">distancia</span><span class="tag warn">tasa / becas</span><span class="tag">finales a verificar</span></div>
+        <a class="card-link" href="https://www.undav.edu.ar/index.php?idcateg=102" rel="noopener" target="_blank">Ver sitio oficial →</a>
+      </article>
+
+      <article class="card item" data-type="licenciatura">
+        <h3>UNL Virtual · Universidad Nacional del Litoral</h3>
+        <p>Oferta amplia a distancia: tecnicaturas, ciclos de complementación, diplomaturas y ciclo inicial de Abogacía. Puede incluir gastos administrativos de inscripción.</p>
+        <div class="tagrow"><span class="tag online">virtual</span><span class="tag warn">tasa administrativa</span><span class="tag">+30 opciones</span></div>
+        <a class="card-link" href="https://www.unlvirtual.edu.ar/" rel="noopener" target="_blank">Ver sitio oficial →</a>
+      </article>
+
+      <article class="card item" data-type="licenciatura">
+        <h3>UNRaf · Universidad Nacional de Rafaela</h3>
+        <p>Ruta a revisar para ciclos de complementación como Licenciatura en Educación y propuestas tecnológicas. En el informe figura como opción gratuita y a distancia.</p>
+        <div class="tagrow"><span class="tag free">gratis</span><span class="tag online">a distancia</span><span class="tag">CCC</span></div>
+        <a class="card-link" href="https://www.unraf.edu.ar/" rel="noopener" target="_blank">Ver sitio oficial →</a>
+      </article>
+
+      <article class="card item" data-type="licenciatura tech">
+        <h3>UNDEF · Universidad de la Defensa Nacional</h3>
+        <p>Carreras estratégicas vinculadas a defensa, gestión pública y ciberdefensa. Buena opción para perfiles interesados en Estado, seguridad, logística y tecnología.</p>
+        <div class="tagrow"><span class="tag free">pública</span><span class="tag tech">ciberdefensa</span><span class="tag online">distancia</span></div>
+        <a class="card-link" href="https://undef.edu.ar/a-distancia-2/" rel="noopener" target="_blank">Ver sitio oficial →</a>
+      </article>
+
+      <article class="card item" data-type="licenciatura tecnicatura">
+        <h3>UPE · Universidad Provincial de Ezeiza</h3>
+        <p>Carreras con perfil aplicado: Comercio Internacional, Gestión Aeroportuaria, Logística, Turismo, Desarrollo de Software e Higiene y Seguridad.</p>
+        <div class="tagrow"><span class="tag free">pública</span><span class="tag">logística</span><span class="tag tech">software</span></div>
+        <a class="card-link" href="https://web.upe.edu.ar/carreras-de-grado/" rel="noopener" target="_blank">Ver sitio oficial →</a>
+      </article>
+
+      <article class="card item" data-type="tecnicatura tech">
+        <h3>IFTS N.° 29 · Desarrollo de Software</h3>
+        <p>Tecnicatura superior en Desarrollo de Software. 100% virtual y asincrónica, con 5 cuatrimestres y examen de preingreso por cupos.</p>
+        <div class="tagrow"><span class="tag free">gratis</span><span class="tag online">100% virtual</span><span class="tag tech">software</span></div>
+        <a class="card-link" href="https://buenosaires.gob.ar/gcaba_historico/informe/tecnicatura-superior-en-desarrollo-de-software-distancia" rel="noopener" target="_blank">Ver sitio oficial →</a>
+      </article>
+
+      <article class="card item" data-type="tecnicatura tech">
+        <h3>IFTS N.° 21 · Sistemas y Administración</h3>
+        <p>Análisis de Sistemas y Administración Pública. Cursada nocturna flexible con soporte de aula virtual y articulación universitaria.</p>
+        <div class="tagrow"><span class="tag free">gratis</span><span class="tag tech">sistemas</span><span class="tag">nocturno</span></div>
+        <a class="card-link" href="https://buenosaires.gob.ar/gcaba_historico/informe/tecnicatura-superior-en-analisis-de-sistemas" rel="noopener" target="_blank">Ver sitio oficial →</a>
+      </article>
+
+      <article class="card item" data-type="tecnicatura tech">
+        <h3>IFTS N.° 16 · Software y Sistemas</h3>
+        <p>Tecnicaturas superiores en Desarrollo de Software y Análisis de Sistemas. Enfoque de inserción tecnológica, prácticas profesionalizantes y pasantías.</p>
+        <div class="tagrow"><span class="tag free">gratis</span><span class="tag tech">software</span><span class="tag">pasantías</span></div>
+        <a class="card-link" href="https://buenosaires.gob.ar/gcaba_historico/superior/formacion-tecnica-superior" rel="noopener" target="_blank">Ver sitio oficial →</a>
+      </article>
+
+      <article class="card item" data-type="tecnicatura">
+        <h3>IFTS N.° 27 · Diseño y Lengua de Señas</h3>
+        <p>Interpretación de Lengua de Señas y Diseño Gráfico y Multimedial. Ruta técnica para perfiles comunicacionales, creativos y de accesibilidad.</p>
+        <div class="tagrow"><span class="tag free">gratis</span><span class="tag">diseño</span><span class="tag">comunicación</span></div>
+        <a class="card-link" href="https://buenosaires.gob.ar/gcaba_historico/superior/formacion-tecnica-superior" rel="noopener" target="_blank">Ver sitio oficial →</a>
+      </article>
+
+      <article class="card item" data-type="tecnicatura tech">
+        <h3>CABA · Ciencia de Datos e IA</h3>
+        <p>Ruta técnica recomendada para quienes quieren combinar programación, estadística aplicada, datos e inteligencia artificial. Revisar sedes, cupos y convocatorias vigentes.</p>
+        <div class="tagrow"><span class="tag free">pública</span><span class="tag tech">datos / IA</span><span class="tag">cupo variable</span></div>
+        <a class="card-link" href="https://buenosaires.gob.ar/gcaba_historico/informe/tecnicatura-superior-en-ciencia-de-datos-e-inteligencia-artificial" rel="noopener" target="_blank">Ver sitio oficial →</a>
+      </article>
+
+      <article class="card item" data-type="curso tech">
+        <h3>IPFL · Formación Laboral Provincia de Buenos Aires</h3>
+        <p>Cursos y trayectos gratuitos con reconocimiento oficial: oficios, administración de PyMEs, habilidades digitales, programación, IA, electricidad, gastronomía y más.</p>
+        <div class="tagrow"><span class="tag free">gratis</span><span class="tag">oficios</span><span class="tag tech">tech</span></div>
+        <a class="card-link" href="https://www.trabajo.gba.gov.ar/ipfl/" rel="noopener" target="_blank">Ver sitio oficial →</a>
+      </article>
+
+      <article class="card item" data-type="curso tech">
+        <h3>Punto Digital · Plataforma de Aprendizaje Virtual</h3>
+        <p>Cursos a distancia, libres y gratuitos en tecnología, ciudadanía y empleabilidad. Buena puerta de entrada para quien empieza desde cero.</p>
+        <div class="tagrow"><span class="tag free">gratis</span><span class="tag online">a distancia</span><span class="tag">+13 años</span></div>
+        <a class="card-link" href="https://www.argentina.gob.ar/jefatura/innovacion-ciencia-y-tecnologia/tics/pav" rel="noopener" target="_blank">Ver sitio oficial →</a>
+      </article>
+
+      <article class="card item" data-type="curso">
+        <h3>Portal Empleo / Fomentar Empleo</h3>
+        <p>Formación profesional, orientación laboral, prácticas y vínculo con ofertas de empleo. Orientado a personas desempleadas o con empleo informal.</p>
+        <div class="tagrow"><span class="tag free">gratis</span><span class="tag online">virtual / presencial</span><span class="tag">18 a 64</span></div>
+        <a class="card-link" href="https://www.argentina.gob.ar/trabajo/fomentarempleo" rel="noopener" target="_blank">Ver sitio oficial →</a>
+      </article>
+
+      <article class="card item" data-type="curso tech">
+        <h3>INAP · Programación y Estado</h3>
+        <p>Capacitaciones autogestionadas vinculadas a administración pública y, según convocatorias, programación web o habilidades digitales.</p>
+        <div class="tagrow"><span class="tag online">autogestionado</span><span class="tag tech">programación</span><span class="tag">revisar cupos</span></div>
+        <a class="card-link" href="https://capacitacion.inap.gob.ar/" rel="noopener" target="_blank">Ver sitio oficial →</a>
+      </article>
+
+      <article class="card item" data-type="curso">
+        <h3>Ciudad Bilingüe · Inglés laboral</h3>
+        <p>Cursos de inglés gratuitos, virtuales y adaptados por nivel, orientados a sectores como turismo, gastronomía, comercio y tecnología.</p>
+        <div class="tagrow"><span class="tag free">gratis</span><span class="tag online">asincrónico</span><span class="tag">inglés</span></div>
+        <a class="card-link" href="https://buenosaires.gob.ar/gcaba_historico/ciudad-bilingue-cursos-gratuitos-de-ingles/ciudad-bilingue-autogestionado" rel="noopener" target="_blank">Ver sitio oficial →</a>
+      </article>
+
+      <article class="card item" data-type="curso">
+        <h3>UPAMI · Personas mayores</h3>
+        <p>Talleres y cursos articulados con universidades nacionales para personas afiliadas a PAMI: tecnología, idiomas, fotografía, cultura y oficios creativos.</p>
+        <div class="tagrow"><span class="tag free">gratuito</span><span class="tag">adultos mayores</span><span class="tag online">virtual / presencial</span></div>
+        <a class="card-link" href="https://www.pami.org.ar/talleresycursos/cursos-upami" rel="noopener" target="_blank">Ver sitio oficial →</a>
+      </article>
+
+      <article class="card item" data-type="curso tech" style="border-color:rgba(212,32,32,.28)">
+        <h3>QuieroProgramar · Python, SQL y datos</h3>
+        <p>Recurso gratuito de Rodri para aprender Python, SQL y análisis de datos desde cero, con lecciones, ejercicios y práctica directamente en el navegador.</p>
+        <div class="tagrow"><span class="tag free">gratis</span><span class="tag online">sin instalaciones</span><span class="tag tech">data analyst</span></div>
+        <a class="card-link" href="https://quieroprogramar.rodrigonzalez.com.ar/" rel="noopener" target="_blank" style="border-color:rgba(212,32,32,.3);color:#f5c6c6">Entrar a QuieroProgramar →</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- COMPARACIÓN -->
+<section id="comparacion">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-kicker">Comparación rápida</span>
+      <h2>Resumen comparativo</h2>
+      <p>Ideal para decidir qué revisar primero.</p>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Institución / plataforma</th>
+            <th>Qué ofrece</th>
+            <th>Para quién sirve</th>
+            <th>Ojo con</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Universidades públicas a distancia</td><td>Licenciaturas, ciclos de complementación, tecnicaturas universitarias</td><td>Quien necesita título oficial o trayectoria larga</td><td>Finales presenciales, tasas, cupos, requisitos previos</td></tr>
+          <tr><td>IFTS / Formación Técnica Superior</td><td>Tecnicaturas oficiales de 2 a 3 años aprox.</td><td>Quien busca salida laboral más directa</td><td>Cupos, examen de ingreso, modalidad exacta</td></tr>
+          <tr><td>IPFL</td><td>Oficios, habilidades digitales, administración, programación, IA</td><td>Quien quiere capacitarse rápido y gratis</td><td>Algunos trayectos pueden ser híbridos o con encuentros obligatorios</td></tr>
+          <tr><td>Punto Digital / PAV</td><td>Cursos libres y gratuitos a distancia</td><td>Principiantes, personas que necesitan base digital</td><td>Profundidad variable; conviene complementarlo con práctica</td></tr>
+          <tr><td>Portal Empleo / Fomentar</td><td>Cursos, orientación laboral, prácticas y ofertas de empleo</td><td>Desempleados o trabajadores informales</td><td>Requisitos de edad, situación laboral y registro</td></tr>
+          <tr><td>Ciudad Bilingüe</td><td>Inglés laboral por niveles</td><td>Quien quiere mejorar empleabilidad en turismo, comercio o tech</td><td>Requisitos de rendimiento y convocatorias</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CHECKLIST -->
+<section id="checklist">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-kicker">Antes de anotarte</span>
+      <h2>Checklist antes de inscribirte</h2>
+      <p>Esto evita perder tiempo, plata o motivación.</p>
+    </div>
+    <div class="checklist">
+      <div class="check">
+        <div class="check-num">1</div>
+        <div class="check-body">
+          <strong>Verificá si es título oficial o certificado.</strong>
+          <span>No es lo mismo una licenciatura, una tecnicatura superior, un curso de extensión o un certificado de asistencia.</span>
+        </div>
+      </div>
+      <div class="check">
+        <div class="check-num">2</div>
+        <div class="check-body">
+          <strong>Confirmá modalidad real.</strong>
+          <span>"Virtual" no siempre significa 100% asincrónico. Puede haber finales presenciales, clases sincrónicas o encuentros obligatorios.</span>
+        </div>
+      </div>
+      <div class="check">
+        <div class="check-num">3</div>
+        <div class="check-body">
+          <strong>Revisá costos ocultos.</strong>
+          <span>Algunas instituciones no cobran arancel académico pero sí matrícula, tasa administrativa o uso de plataforma. También puede haber becas.</span>
+        </div>
+      </div>
+      <div class="check">
+        <div class="check-num">4</div>
+        <div class="check-body">
+          <strong>Miralo con objetivo laboral.</strong>
+          <span>Preguntate: ¿qué trabajo podría conseguir o mejorar con esto? ¿Qué proyecto puedo armar para demostrarlo?</span>
+        </div>
+      </div>
+      <div class="check">
+        <div class="check-num">5</div>
+        <div class="check-body">
+          <strong>Combiná formación + evidencia.</strong>
+          <span>Un certificado suma, pero un portfolio, una práctica, una planilla, una app o un caso real pueden demostrar criterio mejor que el papel solo.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- FUENTES -->
+<section id="fuentes">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-kicker">Links oficiales</span>
+      <h2>Fuentes para verificar</h2>
+      <p>Links directos a sitios oficiales y recursos complementarios para validar oferta vigente, requisitos, cupos e inscripciones.</p>
+    </div>
+    <div class="source-grid">
+      <a class="source-item" href="https://www.argentina.gob.ar/capital-humano/educacion/universidades/guia-de-carreras-universitarias" rel="noopener" target="_blank">Guía de Carreras Universitarias · Argentina.gob.ar</a>
+      <a class="source-item" href="https://www.undav.edu.ar/index.php?idcateg=102" rel="noopener" target="_blank">UNDAV · Educación a distancia</a>
+      <a class="source-item" href="https://www.unlvirtual.edu.ar/" rel="noopener" target="_blank">UNL Virtual</a>
+      <a class="source-item" href="https://undef.edu.ar/a-distancia-2/" rel="noopener" target="_blank">UNDEF · Carreras a distancia</a>
+      <a class="source-item" href="https://web.upe.edu.ar/carreras-de-grado/" rel="noopener" target="_blank">Universidad Provincial de Ezeiza · Carreras</a>
+      <a class="source-item" href="https://buenosaires.gob.ar/gcaba_historico/superior/formacion-tecnica-superior" rel="noopener" target="_blank">CABA · Formación Técnica Superior</a>
+      <a class="source-item" href="https://buenosaires.gob.ar/gcaba_historico/informe/tecnicatura-superior-en-desarrollo-de-software-distancia" rel="noopener" target="_blank">IFTS · Desarrollo de Software a distancia</a>
+      <a class="source-item" href="https://buenosaires.gob.ar/gcaba_historico/informe/tecnicatura-superior-en-ciencia-de-datos-e-inteligencia-artificial" rel="noopener" target="_blank">CABA · Tecnicatura en Ciencia de Datos e IA</a>
+      <a class="source-item" href="https://www.trabajo.gba.gov.ar/ipfl/" rel="noopener" target="_blank">IPFL · Instituto Provincial de Formación Laboral</a>
+      <a class="source-item" href="https://cursosipfl.trabajo.gba.gob.ar/" rel="noopener" target="_blank">IPFL · Buscador de cursos</a>
+      <a class="source-item" href="https://www.argentina.gob.ar/jefatura/innovacion-ciencia-y-tecnologia/tics/pav" rel="noopener" target="_blank">Punto Digital · Plataforma de Aprendizaje Virtual</a>
+      <a class="source-item" href="https://www.argentina.gob.ar/trabajo/fomentarempleo" rel="noopener" target="_blank">Fomentar Empleo · Argentina.gob.ar</a>
+      <a class="source-item" href="https://www.unraf.edu.ar/" rel="noopener" target="_blank">UNRaf · Sitio institucional</a>
+      <a class="source-item" href="https://buenosaires.gob.ar/gcaba_historico/informe/tecnicatura-superior-en-analisis-de-sistemas" rel="noopener" target="_blank">CABA · Tecnicatura en Análisis de Sistemas</a>
+      <a class="source-item" href="https://capacitacion.inap.gob.ar/" rel="noopener" target="_blank">INAP · Buscador de capacitaciones</a>
+      <a class="source-item" href="https://buenosaires.gob.ar/gcaba_historico/ciudad-bilingue-cursos-gratuitos-de-ingles/ciudad-bilingue-autogestionado" rel="noopener" target="_blank">Ciudad Bilingüe · Inglés autogestionado</a>
+      <a class="source-item" href="https://www.pami.org.ar/talleresycursos/cursos-upami" rel="noopener" target="_blank">UPAMI · Cursos universitarios</a>
+      <a class="source-item" href="https://quieroprogramar.rodrigonzalez.com.ar/" rel="noopener" target="_blank">QuieroProgramar · Python, SQL y datos gratis</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <span class="footer-mark">Rodri Gonzalez</span>
+        <p class="footer-desc">Soy financista de profesión, programador circunstancial y comediante frustrado. Diseño métricas, modelos y flujos de datos; también intento explicar tecnología y finanzas de forma simple.<br/><br/><strong style="color:#fff">QuieroProgramar</strong> es mi plataforma gratuita para aprender Python, SQL y análisis de datos desde cero.</p>
+      </div>
+      <div>
+        <span class="section-kicker">Links</span>
+        <div class="footer-links">
+          <a href="https://rodrigonzalez.com.ar/" rel="noopener" target="_blank">Portfolio</a>
+          <a href="https://quieroprogramar.rodrigonzalez.com.ar/" rel="noopener" target="_blank">QuieroProgramar</a>
+          <a href="https://github.com/rodrigonzalezok" rel="noopener" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/rodrigonzalezok/" rel="noopener" target="_blank">LinkedIn</a>
+          <a href="https://www.tiktok.com/@rodrigonzlez" rel="noopener" target="_blank">TikTok</a>
+          <a href="https://www.instagram.com/rodrigonzlez" rel="noopener" target="_blank">Instagram</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>©Rodrigo Gonzalez Doldán</span>
+      <span>Hecho con ❤️ por Rodri</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+const buttons = document.querySelectorAll('.filter-btn');
+const items = document.querySelectorAll('.item');
+buttons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    buttons.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const filter = btn.dataset.filter;
+    items.forEach(item => {
+      const types = item.dataset.type.split(' ');
+      item.style.display = (filter === 'all' || types.includes(filter)) ? '' : 'none';
+    });
+  });
+});
+</script>
+</body>
+</html>
