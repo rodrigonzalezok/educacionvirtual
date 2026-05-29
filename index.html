@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Guía de estudio gratuita · Argentina · Rodri Gonzalez</title>
+<title>Guía de estudio gratuita · Argentina · Rodri González</title>
 <meta name="description" content="Directorio de carreras universitarias, tecnicaturas y cursos gratuitos o accesibles en Argentina. Filtros por área y tipo de título."/>
 <meta name="theme-color" content="#000000"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -111,6 +111,7 @@ h1 span{color:var(--red)}
 .area-sociales{color:#f0abfc}
 .area-energia{color:#fca5a5}
 .area-cursos{color:#fcd34d}
+.area-estetica{color:#f9a8d4}
 
 /* ─── CHECKLIST ─── */
 .section{max-width:var(--max);margin:0 auto;padding:40px 20px}
@@ -152,7 +153,7 @@ footer{border-top:1px solid var(--b1)}
   <div class="topbar-in">
     <a href="https://rodrigonzalez.com.ar/" class="brand">
       <span class="brand-dot">RG</span>
-      Rodrigo Gonzalez Doldan
+      Rodrigo González Doldán
       <span class="brand-sub">· Data &amp; Finance</span>
     </a>
     <div class="top-links">
@@ -202,6 +203,7 @@ footer{border-top:1px solid var(--b1)}
         <button class="pill" data-area="sociales">🏛️ Ciencias Sociales</button>
         <button class="pill" data-area="energia">⚡ Energía y Petróleo</button>
         <button class="pill" data-area="cursos">🎓 Cursos libres</button>
+        <button class="pill" data-area="estetica">🧴 Estética y cuidados</button>
       </div>
     </div>
     <div class="filter-row">
@@ -246,7 +248,7 @@ footer{border-top:1px solid var(--b1)}
 <footer class="z">
   <div class="footer-in">
     <div>
-      <div class="footer-mark">Rodri Gonzalez</div>
+      <div class="footer-mark">Rodri González</div>
       <p class="footer-desc">Financista de profesión, programador circunstancial. Armo herramientas y guías para que otras personas puedan tomar mejores decisiones en educación, datos y finanzas.<br/><br/>
       <strong style="color:var(--t2)">QuieroProgramar</strong> es mi plataforma gratuita para aprender Python, SQL y análisis de datos desde cero, directo en el navegador.</p>
     </div>
@@ -259,7 +261,7 @@ footer{border-top:1px solid var(--b1)}
     </div>
   </div>
   <div class="footer-bottom">
-    <span>© Rodrigo Gonzalez Doldan</span>
+    <span>© Rodrigo González Doldán</span>
     <span>Hecho con ❤️ desde Buenos Aires</span>
   </div>
 </footer>
@@ -272,6 +274,7 @@ const AREAS = {
   sociales:   { label: "Ciencias Sociales",    cls: "area-sociales"   },
   energia:    { label: "Energía y Petróleo",   cls: "area-energia"    },
   cursos:     { label: "Cursos libres",        cls: "area-cursos"     },
+  estetica:   { label: "Estética y cuidados", cls: "area-estetica"   },
 };
 const TIPOS = {
   licenciatura: "Lic. / Ing.",
@@ -341,7 +344,7 @@ const DATA = [
     url:"https://www.ulp.edu.ar/paginas/oferta_educativa/carreras.php" },
 
   { id:10, name:"Cursos Python, SQL y Análisis de Datos",
-    inst:"QuieroProgramar · Rodrigo Gonzalez",
+    inst:"QuieroProgramar · Rodrigo González",
     type:"curso", area:"tech", mode:"distancia", dur:"flexible", cost:"gratis",
     note:"Plataforma gratuita con lecciones y práctica directamente en el navegador. Sin instalaciones. 15 lecciones de SQL y track completo de Data Analysis.",
     url:"https://quieroprogramar.rodrigonzalez.com.ar/" },
@@ -602,6 +605,92 @@ const DATA = [
     type:"tecnicatura", area:"cursos", mode:"presencial", dur:"2,5 años", cost:"gratis",
     note:"Alta demanda laboral en industria, logística y construcción. Seguridad laboral, prevención y gestión ambiental. Pública y gratuita.",
     url:"https://web.upe.edu.ar/carreras-de-grado/" },
+
+  // ── ESTÉTICA, COSMETOLOGÍA Y CUIDADOS ───────────────────────────────
+  { id:53, name:"Tecnicatura Universitaria en Cosmetología Facial y Corporal",
+    inst:"UBA · Facultad de Medicina",
+    type:"tecnicatura", area:"estetica", mode:"presencial", dur:"consultar plan", cost:"gratis",
+    note:"Título universitario público. El/la técnico/a participa en promoción de la salud, prácticas auxiliares de dermatología y tratamientos cosméticos de piel, con inserción en hospitales, centros de estética, spa o actividad independiente. Verificar inscripción, materias y modalidad vigente.",
+    url:"https://www.fmed.uba.ar/carreras/tecnicatura-universitaria-en-cosmetologia-facial-y-corporal/informacion-general" },
+
+  { id:54, name:"Estética Facial",
+    inst:"Formación Profesional · Gobierno de la Ciudad de Buenos Aires",
+    type:"curso", area:"estetica", mode:"presencial", dur:"4 meses a 1 año", cost:"gratis",
+    note:"Curso gratuito con certificación oficial. Rutinas básicas de cuidado de la piel, tipos cutáneos, selección de productos, asesoramiento al cliente, higiene del espacio de trabajo y vocabulario técnico. Sedes CFP de CABA.",
+    url:"https://buenosaires.gob.ar/gcaba_historico/informe/estetica-facial" },
+
+  { id:55, name:"Especialista en Tratamientos Estético Faciales",
+    inst:"Formación Profesional · Gobierno de la Ciudad de Buenos Aires",
+    type:"curso", area:"estetica", mode:"presencial", dur:"trayecto", cost:"gratis",
+    note:"Especialización gratuita en cosmetología facial: selección de formas cosmetológicas según composición química y tipo de piel, detección de enfermedades para derivación, tratamientos de higiene, tonificación y protección de pieles sanas.",
+    url:"https://buenosaires.gob.ar/gcaba_historico/informe/especialista-en-tratamientos-estetico-faciales" },
+
+  { id:56, name:"Estética Corporal",
+    inst:"Formación Profesional · Gobierno de la Ciudad de Buenos Aires",
+    type:"curso", area:"estetica", mode:"presencial", dur:"4 meses a 1 año", cost:"gratis",
+    note:"Capacitación gratuita en técnicas de masaje descontracturante, masaje circulatorio descongestivo y masaje reductor como complemento de tratamientos corporales. Modalidad presencial en sedes CFP.",
+    url:"https://buenosaires.gob.ar/gcaba_historico/informe/estetica-corporal" },
+
+  { id:57, name:"Especialista en Tratamientos Estético Corporales",
+    inst:"Formación Profesional · Gobierno de la Ciudad de Buenos Aires",
+    type:"curso", area:"estetica", mode:"presencial", dur:"trayecto", cost:"gratis",
+    note:"Trayecto gratuito para evaluar afecciones estéticas corporales, aplicar técnicas manuales y comprender bases de biología, piel, circulación, nutrición, higiene, seguridad y relaciones humanas.",
+    url:"https://buenosaires.gob.ar/gcaba_historico/informe/especialista-en-tratamientos-estetico-corporales" },
+
+  { id:58, name:"Maquillador Profesional",
+    inst:"Formación Profesional · Gobierno de la Ciudad de Buenos Aires",
+    type:"curso", area:"estetica", mode:"presencial", dur:"4 meses a 1 año", cost:"gratis",
+    note:"Curso gratuito de maquillaje social, correctivo y artístico. Requisito general: mayoría de edad y primaria completa. Amplia disponibilidad de sedes CFP en CABA.",
+    url:"https://buenosaires.gob.ar/gcaba_historico/informe/maquillador-profesional" },
+
+  { id:59, name:"Cosmetología, depilación y estética aplicada",
+    inst:"IPFL · Instituto Provincial de Formación Laboral (Pcia. Buenos Aires)",
+    type:"curso", area:"estetica", mode:"hibrido", dur:"variable", cost:"gratis",
+    note:"Buscador oficial y gratuito de formación laboral bonaerense. En el catálogo aparecen opciones como Cosmetología, Depilación, Uñas Artificiales, Bioseguridad, Belleza de manos y pies, entre otras. La modalidad depende del CFL y la localidad.",
+    url:"https://cursosipfl.trabajo.gba.gob.ar/" },
+
+  { id:60, name:"Asesor de Belleza",
+    inst:"Capacítate para el Empleo · Fundación Carlos Slim",
+    type:"curso", area:"estetica", mode:"distancia", dur:"4 niveles", cost:"gratis",
+    note:"Curso online gratuito para aprender técnicas y herramientas para embellecer el rostro según rasgos, color, correcciones, peinados sencillos, maquillaje de TV, caracterización y body paint. Certificación sin costo en la plataforma.",
+    url:"https://capacitateparaelempleo.org/cursos/view/40" },
+
+  { id:61, name:"Introducción a la Cosmetología",
+    inst:"Alison · Curso online",
+    type:"curso", area:"estetica", mode:"distancia", dur:"autoaprendizaje", cost:"gratis",
+    note:"Curso online gratuito de cosmetología: cuidado de la piel, maquillaje, masaje, depilación, manicura, pedicura, cuidado del cabello y protocolos de seguridad. El aprendizaje es gratuito; el certificado oficial de Alison puede ser pago.",
+    url:"https://alison.com/es/curso/introduccion-a-la-cosmetologia" },
+
+  { id:62, name:"Cursos online gratuitos de estética",
+    inst:"Cursa App",
+    type:"curso", area:"estetica", mode:"distancia", dur:"variable", cost:"gratis",
+    note:"Catálogo online gratuito con cursos de uñas, manicura, pedicura, cejas, maquillaje, barbería y cuidado del cabello. Según la plataforma, el certificado digital también puede emitirse gratis desde la app.",
+    url:"https://cursa.app/cursos-online-estetica-es-gratis" },
+
+  { id:63, name:"Curso gratuito de cosmética natural",
+    inst:"Instituto Europeo de Dermocosmética",
+    type:"curso", area:"estetica", mode:"distancia", dur:"introductorio", cost:"gratis",
+    note:"Introducción online gratuita a cosmética natural, aromacosmética, fitocosmética y recetas sencillas para iniciar en elaboración de productos cosméticos naturales. Sin tutoría formal; ideal como primer acercamiento.",
+    url:"https://www.institutodermocosmetica.com/curso-gratis-de-cosmetica-natural/" },
+
+  { id:64, name:"Curso virtual sobre fundamentos del cuidado paliativo",
+    inst:"OPS/OMS · Campus Virtual de Salud Pública",
+    type:"curso", area:"salud", mode:"distancia", dur:"20 horas", cost:"gratis",
+    note:"Curso abierto, gratuito y de autoaprendizaje sobre cuidados paliativos, sufrimiento multidimensional, duelo, comunicación, ética, cuidado al final de la vida, resiliencia y autocuidado. Muy vinculado a tanatología y acompañamiento del final de vida.",
+    url:"https://campus.paho.org/es/curso/Cuidado-Paliativo" },
+
+  { id:65, name:"Cuidados paliativos para familiares y voluntarios",
+    inst:"Capacítate para el Empleo · Fundación Carlos Slim",
+    type:"curso", area:"salud", mode:"distancia", dur:"38 horas", cost:"gratis",
+    note:"Curso online gratuito orientado a familiares y voluntarios para aliviar el sufrimiento de personas con enfermedades limitantes para la vida. Buen primer paso para quien busca tanatología desde el acompañamiento y el cuidado.",
+    url:"https://capacitateparaelempleo.org/cursos/view/286" },
+
+  { id:66, name:"Descubriendo la Tanatología",
+    inst:"SAK Fundación",
+    type:"curso", area:"salud", mode:"distancia", dur:"3 encuentros", cost:"gratis",
+    note:"Programa gratuito de introducción a tanatología, duelo y herramientas para afrontar pérdidas. Importante: verificar vigencia de la convocatoria antes de difundir, porque las fechas pueden corresponder a cohortes puntuales.",
+    url:"https://www.sakfundacion.org/descubriendo-la-tanatologia" },
+
 ];
 
 // ── ESTADO ────────────────────────────────────────────────────────────
